@@ -1,0 +1,74 @@
+body {
+  background: url("assets/paralax.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top center;
+        }
+
+header {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+ul {
+  padding: 20px;
+  background: white;
+}
+
+li {
+  position: center;
+  display: inline-block;
+  padding: 0px 50px 0px 50px;
+}
+a{
+  font-family: Georgia, serif;
+  color: black;
+}
+p{
+
+  font-family: Georgia, serif;
+  padding-left: 40px;
+  font: futura;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.nav{
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  top:0px;
+}
+
+.processimg{
+  margin:auto;
+  display: block;
+  width: 100%;
+  position: relative;;
+  top:700px;
+}
+.yelp{
+  margin: 0 auto;
+  position: center;
+  padding-bottom: : 20px;
+}
+
+.headshot{
+  margin:auto;
+  display: block;
+  width: 100%;
+  position: relative;;
+  top:75px;
+}
+.mail{
+  max-width: 200%;
+  position: scroll;
+}
+.linkedin{
+  max-width: 200%;
+}
+.portfolio{
+  max-width: 200%;
+}
