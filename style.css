@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
+  background-size: cover;
+  margin: 0 auto;
         }
 
 header {
@@ -18,6 +20,8 @@ ul {
 
 li {
   position: center;
+  font-family: "Open Sans" , sans-serif;
+  color: black;
   display: inline-block;
   padding: 0px 50px 0px 50px;
 }
@@ -25,12 +29,7 @@ a{
   font-family: "Open Sans" , sans-serif;
   color: black;
 }
-p{
 
-  font-family: Georgia, serif;
-  padding-left: 40px;
-  font: futura;
-}
 img {
     max-width: 100%;
     height: auto;
@@ -40,6 +39,7 @@ img {
   height: 200px;
   position: fixed;
   top:0px;
+  padding-top: 0px;
 }
 
 .processimg{
@@ -49,18 +49,14 @@ img {
   position: relative;;
   top:700px;
 }
-.yelp{
-  margin: 0 auto;
-  position: center;
-  padding-bottom: : 20px;
-}
+
 
 .headshot{
   margin:auto;
   display: block;
   width: 100%;
   position: relative;;
-  top:75px;
+  top:60px;
 }
 .mail{
   max-width: 200%;
